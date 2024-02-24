@@ -19,5 +19,6 @@ Windows直接网络共享会有"连接失败提示"<br>
 二、教程
 ----
 首先，要下载VMware虚拟机<br>
+[点击下载VMware(571MB)](https://www.onlinedown.net/soft/2062.htm/)
 还需要一个Ubuntu的系统镜像文件<br>
 [点击下载Ubuntu20.04.6(4.35GB)](http://mirrors.aliyun.com/ubuntu-releases/20.04/ubuntu-20.04.6-desktop-amd64.iso?spm=a2c6h.25603864.0.0.7f684509MplJ8J)<br>
