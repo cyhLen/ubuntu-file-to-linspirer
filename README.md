@@ -68,4 +68,4 @@ sudo smbpasswd -a 要设置的登录账户
 ```
 sudo service smb restart
 ```
-8.
+8.平板端检查是否能登录账户和访问文件
