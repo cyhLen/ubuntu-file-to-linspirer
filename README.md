@@ -24,6 +24,7 @@ Windows直接网络共享会有"连接失败提示"<br>
 [点击下载Ubuntu20.04.6(4.35GB)](http://mirrors.aliyun.com/ubuntu-releases/20.04/ubuntu-20.04.6-desktop-amd64.iso?spm=a2c6h.25603864.0.0.7f684509MplJ8J)<br>
 2.VMware的激活自己搞，这里不再赘述<br>
 3.选择新建虚拟机→镜像文件<br>
+![](https://github.com/cyhLen/connect-git-with-linux-/IMG_20240225_174812.jpg)
 4.输入账号和密码，作为Ubuntu系统的登录账号和密码<br>
 5.等待安装
 6.在虚拟机设置中将网络连接方式修改为桥接模式<br>
