@@ -59,3 +59,12 @@ browsable = yes
 comment是描述，可以随意写<br>
 path下的路径一定要写对<br>
 然后按 *enter* 键，输入 *:wq* 后按回车
+7.设置登录账户:
+```
+sudo smbpasswd -a 要设置的登录账户
+```
+6.输入以下命令重启smb服务:
+```
+sudo service smb restart
+```
+7.
