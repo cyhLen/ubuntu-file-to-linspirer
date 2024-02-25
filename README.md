@@ -49,9 +49,10 @@ vi /etc/samba/smb.conf
 按 *i* 键进入插入模式<br>
 然后输入:
 ```
-[shared]
-comment = Shared Folder
-path = /shared
+[smbshare]
+comment = myshare
+path = /home/你的Ubuntu用户名
 writable = yes
 browsable = yes
 ```
+其中，[]内的是显示名称<br>
