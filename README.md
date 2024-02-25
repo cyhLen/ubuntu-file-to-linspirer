@@ -58,3 +58,4 @@ browsable = yes
 其中，[]内的是显示名称<br>
 comment是描述，可以随意写<br>
 path下的路径一定要写对<br>
+然后按 *enter* 键，输入 *:wq* 后按回车
