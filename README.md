@@ -26,8 +26,10 @@ Windows直接网络共享会有"连接失败提示"<br>
 3.选择新建虚拟机→镜像文件<br>
 ![](https://github.com/cyhLen/ubuntu-file-to-linspirer/raw/main/IMG_20240225_174812.jpg)
 4.输入账号和密码，作为Ubuntu系统的登录账号和密码<br>
-5.等待安装<br>
 ![](https://github.com/cyhLen/ubuntu-file-to-linspirer/raw/main/IMG_20240225_175447.jpg)
+5.等待安装<br>
+![](https://github.com/cyhLen/ubuntu-file-to-linspirer/raw/main/IMG_20240225_175014.jpg)
+![](https://github.com/cyhLen/ubuntu-file-to-linspirer/raw/main/IMG_20240225_175057.jpg)
 6.在虚拟机设置中将网络连接方式修改为桥接模式<br>
 一般默认是nat模式<br>
 如果已经是桥接模式，则不需要修改<br>
