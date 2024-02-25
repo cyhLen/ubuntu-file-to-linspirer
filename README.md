@@ -42,3 +42,7 @@ sudo su
 ```
 vi /etc/samba/smb.conf
 ```
+接着就是最难操作的部分:<br>
+用命令行vi文本编辑器修改配置文件<br>
+前方高能!<br>
+按键盘
