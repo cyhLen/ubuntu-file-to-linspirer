@@ -29,21 +29,29 @@ Windows直接网络共享会有"连接失败提示"<br>
 
 三、samba的安装和配置
 ----
-在命令行输入:(安装samba)
+1.在命令行输入:(安装samba)
 ```
 sudo apt-get install samba
 ```
-选择一个文件夹，也可以将自己用户里的所有文件全部共享，这样更方便一些<br>
-命令行切换到root用户:
+2.选择一个文件夹，也可以将自己用户里的所有文件全部共享，这样更方便一些<br>
+3.命令行切换到root用户:
 ```
 sudo su
 ```
-打开samba配置文件:
+4.打开samba配置文件:
 ```
 vi /etc/samba/smb.conf
 ```
-接着就是最难操作的部分:<br>
+5.接着就是最难操作的部分:<br>
 用命令行vi文本编辑器修改配置文件<br>
 前方高能!<br>
 按键盘下键或用鼠标翻页，翻到最下方<br>
-按 *i* 键进入插入模式
+按 *i* 键进入插入模式<br>
+然后输入:
+```
+[shared]
+comment = Shared Folder
+path = /shared
+writable = yes
+browsable = yes
+```
