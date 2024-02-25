@@ -73,6 +73,12 @@ sudo smbpasswd -a 要设置的登录账户
 然后按照提示输入登录用户名和密码<br>
 7.输入以下命令重启smb服务:
 ```
-sudo service smb restart
+samba restart
 ```
-8.平板端检查是否能登录账户和访问文件
+8.重启虚拟机<br>
+9.打开命令行，检测IP地址
+```
+apt install net-tools
+ifconfig
+```
+最后平板端检查是否能登录账户和访问文件
