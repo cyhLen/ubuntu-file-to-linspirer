@@ -38,3 +38,7 @@ sudo apt-get install samba
 ```
 sudo su
 ```
+打开samba配置文件:
+```
+vi /etc/samba/smb.conf
+```
