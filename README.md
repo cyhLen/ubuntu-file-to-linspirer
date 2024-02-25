@@ -16,9 +16,13 @@ Windows直接网络共享会有"连接失败提示"<br>
 * 教程里将会以Ubuntu为虚拟机系统为例<br>
 * 通过命令行修改smb配置文件，添加账户<br>
 
-二、教程
+二、虚拟机的安装
 ----
-首先，要下载VMware虚拟机<br>
+1.首先，要下载VMware虚拟机<br>
 [点击下载VMware(571MB)](https://www.onlinedown.net/soft/2062.htm/)<br>
 还需要一个Ubuntu的系统镜像文件<br>
 [点击下载Ubuntu20.04.6(4.35GB)](http://mirrors.aliyun.com/ubuntu-releases/20.04/ubuntu-20.04.6-desktop-amd64.iso?spm=a2c6h.25603864.0.0.7f684509MplJ8J)<br>
+2.VMware的激活自己搞，这里不再赘述<br>
+3.选择新建虚拟机→镜像文件<br>
+4.输入账号和密码，作为Ubuntu系统的登录账号和密码<br>
+5.等待安装
